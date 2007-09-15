@@ -34,7 +34,7 @@
 Summary:        High performance collections for Java
 Name:           gnu-%{short_name}
 Version:        1.0.2
-Release:        %mkrel 5.0.1
+Release:        %mkrel 5.0.2
 Epoch:          0
 License:        LGPL
 URL:            http://trove4j.sourceforge.net/
@@ -46,8 +46,6 @@ BuildRequires:  ant >= 0:1.6
 BuildRequires:  ant-junit >= 0:1.6
 BuildRequires:  junit
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildArch:      noarch
