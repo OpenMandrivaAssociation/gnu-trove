@@ -34,14 +34,14 @@
 Summary:        High performance collections for Java
 Name:           gnu-%{short_name}
 Version:        1.0.2
-Release:        %mkrel 5.0.2
+Release:        %mkrel 5.0.3
 Epoch:          0
 License:        LGPL
 URL:            http://trove4j.sourceforge.net/
 Group:          Development/Java
 Source0:        trove-1.0.2.tar.gz
 Source1:        trove-build.xml
-BuildRequires:  jpackage-utils >= 0:1.6
+BuildRequires:  java-rpmbuild >= 0:1.6
 BuildRequires:  ant >= 0:1.6
 BuildRequires:  ant-junit >= 0:1.6
 BuildRequires:  junit
