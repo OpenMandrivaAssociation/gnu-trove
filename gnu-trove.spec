@@ -51,6 +51,7 @@ BuildRequires:  java-gcj-compat-devel
 BuildArch:      noarch
 BuildRequires:  java-devel
 %endif
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Provides:       gnu.trove = %{epoch}:%{name}-%{version}
 Obsoletes:      gnu.trove < %{epoch}:%{name}-%{version}
 
