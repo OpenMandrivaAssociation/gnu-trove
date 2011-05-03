@@ -34,7 +34,7 @@
 Summary:        High performance collections for Java
 Name:           gnu-%{short_name}
 Version:        1.0.2
-Release:        %mkrel 5.0.7
+Release:        %mkrel 5.0.8
 Epoch:          0
 License:        LGPL
 URL:            http://trove4j.sourceforge.net/
