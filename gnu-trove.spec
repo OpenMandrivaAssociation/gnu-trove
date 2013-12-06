@@ -35,7 +35,7 @@ Summary:        High performance collections for Java
 Name:           gnu-%{short_name}
 Epoch:          0
 Version:        1.0.2
-Release:        9
+Release:        10
 License:        LGPL
 Group:          Development/Java
 Url:            http://trove4j.sourceforge.net/
