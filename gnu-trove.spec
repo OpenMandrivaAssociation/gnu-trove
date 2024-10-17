@@ -38,7 +38,7 @@ Version:        1.0.2
 Release:        13
 License:        LGPL
 Group:          Development/Java
-Url:            http://trove4j.sourceforge.net/
+Url:            https://trove4j.sourceforge.net/
 Source0:        trove-1.0.2.tar.gz
 Source1:        trove-build.xml
 BuildRequires:  java-rpmbuild >= 0:1.6
